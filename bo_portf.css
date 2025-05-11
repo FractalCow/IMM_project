@@ -95,8 +95,7 @@ footer.bottom { position: fixed;
 				   gap: 0.5em;
 				   grid-template-columns: 1fr;
 				   grid-template-rows: auto;
-				   width: 60%;
-				   max-width: 80%;
+				   margin: 0% 5%;
 			}
 			
 			.center { margin: auto;
