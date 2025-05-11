@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<title>Final Project</title>
+	
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="bo_portf.css">
+	
+</head>
+
+<body>
+
+<div class="top">
+<header><h1>
+<a href="index.html">Bruce Oyang</a>
+</h1></header>
+
+<nav>
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="portfolio.html">Portfolio</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<hr>
+</div>
+
+<main>
+
+<h2>Contact</h2>
+
+<p>Use the form below or <a href="mailto:boyang@mail.dccc.edu">email me</a> directly</p>
+
+<form method="post" action="mailto:boyang@mail.dccc.edu" enctype="text/plain">
+
+<label for="myName">Name: </label>
+<input type="text" id="myName" name="myName" required="required">
+
+<label for="myEmail">E-mail: </label>
+<input type="email" id="myEmail" name="myEmail" required="required">
+
+<label for="mySubject">Subject: </label>
+<input type="text" id="mySubject" name="mySubject">
+
+<label for="myBody">Body: </label>
+<textarea id="myBody" name="myBody" rows="6" cols="90" required="required"></textarea>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</main>
+
+<footer class="bottom"><h2>Today is 
+<script>
+var myDate = new Date()
+var month = myDate.getMonth() + 1
+var day = myDate.getDate()
+var year = myDate.getFullYear()
+document.write(month + "/" + day + "/" + year)
+</script>
+</h2></footer>
+
+</body>
+
+</html>
